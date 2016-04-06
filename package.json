@@ -1,0 +1,27 @@
+{
+  "name": "vue-localforage",
+  "version": "0.1.0",
+  "description": "A simple Vue plugin wrapped from localForage.",
+  "main": "vue-localforage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shidianxia/vue-localforage.git"
+  },
+  "keywords": [
+    "Vue",
+    "localForage"
+  ],
+  "author": "shidianxia",
+  "dependencies": {
+      "vue": "^1.0.20",
+      "localforage": "^1.4.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shidianxia/vue-localforage/issues"
+  },
+  "homepage": "https://github.com/shidianxia/vue-localforage#readme"
+}
