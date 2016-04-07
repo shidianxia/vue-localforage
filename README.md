@@ -91,7 +91,7 @@ localforage.LOCALSTORAGE
 ### Set and persist localForage options.
 
 ```js
-this.storageConfig({
+this.$storageConfig({
     driver: localforage.LOCALSTORAGE,
     name: 'Name-of-localStorage'
 });
