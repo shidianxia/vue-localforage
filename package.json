@@ -1,6 +1,6 @@
 {
   "name": "vue-localforage",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A simple Vue plugin wrapped from localForage.",
   "main": "vue-localforage.js",
   "scripts": {
