@@ -5,13 +5,13 @@
  */
 'use strict'
 
-require('localforage')
+var localForage = require('localforage')
 
-function VueLocalForage(Vue) {
+function VueLocalForage(Vue,LocalForage) {
   var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1]
   
-  Vue.prototype.$setStorage = function (a, b) {
-    localForage.setItem( a,b )
+  Vue.prototype.$setItem = function (a, b) {
+    localForage.setItem(a, b)
   }
 }
 
