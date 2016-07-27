@@ -1,5 +1,5 @@
 /*!
- * vue-localforage v0.2.0
+ * vue-localforage v0.2.4
  * shidianxai@gmail.com
  * Released under the MIT License.
  */
@@ -50,6 +50,6 @@ function VueLocalForage (Vue) {
   }
 }
 
-VueLocalForage.version = '0.2.0'
+VueLocalForage.version = '0.2.4'
 
 module.exports = VueLocalForage
