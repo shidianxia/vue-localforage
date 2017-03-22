@@ -48,6 +48,23 @@ function VueLocalForage (Vue) {
   Vue.prototype.$storageConfig = function (options) {
     localForage.config(options)
   }
+
+  var functions = [
+    '$getItem',
+    '$setItem',
+    '$removeItem',
+    '$clearStorage',
+    '$lengthOfStorage',
+    '$keyInStorage',
+    '$iterateStorage',
+    '$setStorageDriver',
+    '$storageConfig'
+  ]
+
+  Vue.localForage = {}
+  functions.forEach(function (name) {
+    Vue.localForage[name] = Vue.prototype[name]
+  })
 }
 
 VueLocalForage.version = '0.2.4'
