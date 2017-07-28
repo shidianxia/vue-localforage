@@ -1,6 +1,6 @@
 /*!
  * vue-localforage v0.2.4
- * shidianxai@gmail.com
+ * shidianxia@gmail.com
  * Released under the MIT License.
  */
 'use strict'
