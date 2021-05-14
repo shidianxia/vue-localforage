@@ -1,3 +1,5 @@
+*This package is looking for maintainer! If you are interested, please open an issue and leave your comment.*
+
 # vue-localforage
 A simple Vue plugin wrapped from localForage.
 
